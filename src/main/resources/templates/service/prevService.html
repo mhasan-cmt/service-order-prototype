@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}">
+<body>
+<div class="container" layout:fragment="content">
+    <h3 class="h4 py-5" th:if="${#lists.isEmpty(bookings)}"> You did not ordered any service!
+        Click
+        <a th:href="@{/service/new}">here</a> to order a service
+    </h3>
+    <th:block th:unless="${#lists.isEmpty(bookings)}">
+        <div class="row">
+            <h1 class="text-primary h4  py-2"> Previously Ordered Services </h1>
+        </div>
+        <table class="table table-striped table-bordered table-hover">
+            <thead class="table-dark">
+            <tr>
+                <th>Service Name</th>
+                <th>Price</th>
+                <th>Provided By</th>
+                <th>Address</th>
+                <th>Phone</th>
+                <th>Ordered At</th>
+                <th>Payment Method</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:each="booking: ${bookings}">
+                <td th:text="${booking.services.name}"></td>
+                <td th:text="${booking.services.price}"></td>
+                <td th:text="${booking.services.serviceProvider.user.fullName}"></td>
+                <td th:text="${booking.address}"></td>
+                <td th:text="${booking.num}"></td>
+                <td th:text="${booking.createdAt}"></td>
+                <td th:text="${booking.paymentMethod}"></td>
+            </tr>
+            </tbody>
+        </table>
+    </th:block>
+</div>
+</body>
+</html>

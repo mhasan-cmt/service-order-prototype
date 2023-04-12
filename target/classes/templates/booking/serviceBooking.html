@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}">
+<body>
+<div class="container" layout:fragment="content">
+  <div class="row">
+    <div class="col-md-6 offset-md-3">
+      <h1 class="h2 py-3"> Book a Service (Pay Online)</h1>
+      <div class="my-2">
+        <form method="post" role="form" th:action="@{/booking/pay-online}" th:object="${booking}">
+            <input th:field="*{services.id}" type="hidden"/>
+            <input th:field="*{paymentMethod}" type="hidden"/>
+          <div class="form-group mb-3">
+            <label class="form-label" for="service"> Service <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="service"
+                   name="service"
+                   readonly
+                   th:field="*{services.name}"
+                   type="text"
+            />
+            <p th:errors="*{services.name}" class="text-danger"
+               th:if="${#fields.hasErrors('services.name')}">
+            </p>
+          </div>
+
+          <div class="form-group mb-3">
+            <label class="form-label">Price <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="price"
+                   name="price"
+                   readonly
+                   th:field="*{services.price}"
+                   type="number"
+            />
+            <p th:errors="*{services.price}" class="text-danger"
+               th:if="${#fields.hasErrors('services.price')}">
+            </p>
+          </div>
+          <div class="form-group mb-3">
+            <label class="form-label">Provided By <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="provided-by"
+                   name="provided-by"
+                   readonly
+                   th:field="*{services.serviceProvider.user.fullName}"
+                   type="text"
+            />
+            <p th:errors="*{services.serviceProvider.user.fullName}" class="text-danger"
+               th:if="${#fields.hasErrors('services.serviceProvider.user.fullName')}">
+            </p>
+          </div>
+          <div class="form-group mb-3">
+            <label class="form-label">Address <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="address"
+                   name="address"
+                   placeholder="Enter your address"
+                   th:field="*{address}"
+                   type="text"
+            />
+            <p th:errors="*{address}" class="text-danger"
+               th:if="${#fields.hasErrors('address')}">
+            </p>
+          </div>
+          <div class="form-group mb-3">
+            <label class="form-label">Phone <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="phone"
+                   name="phone"
+                   placeholder="Enter your phone number"
+                   th:field="*{num}"
+                   type="text"
+            />
+            <p th:errors="*{num}" class="text-danger"
+               th:if="${#fields.hasErrors('num')}">
+            </p>
+          </div>
+
+          <div class="form-group mb-3">
+            <button class="btn btn-primary" type="submit">Book</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

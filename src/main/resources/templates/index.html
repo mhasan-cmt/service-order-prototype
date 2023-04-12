@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}">
+<body>
+<div layout:fragment="content">
+    <div class="row" sec:authorize="isFullyAuthenticated()">
+        <h1 class="text-center h1 py-2" th:text="'Welcome, ' + ${user.getFullName()} + ' to Service To You'"></h1>
+        <h1 class="text-center h5" th:if="${isServiceProvider && !hasService}" >You are not providing any service yet, Please add a service.
+        <a th:href="@{/service/edit(providerId=${providerId})}"> click here</a> to add a service.
+        </h1>
+    </div>
+    <div class="row" sec:authorize="!isFullyAuthenticated()">
+        <h1 class="text-center h1 py-2">Welcome to Service To You</h1>
+    </div>
+</div>
+</body>
+</html>

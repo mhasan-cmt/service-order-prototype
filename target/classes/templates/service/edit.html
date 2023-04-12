@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" xmlns:sec="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}">
+<body>
+<div class="container" layout:fragment="content">
+  <div class="row">
+  <div class="card col-md-6 offset-md-3">
+    <div th:if="${param.success}" class="my-2">
+      <div class="alert alert-info">Success!</div>
+    </div>
+    <div class="card-header">
+      <h2 class="text-center h5 text-dark" th:if="${hasService}" >Edit Service</h2>
+      <h2 class="text-center h5 text-dark" th:unless="${hasService}" >Add a Service</h2>
+    </div>
+    <div class="card-body">
+        <div>
+          <div class="alert alert-info" th:if="${!hasService}">You don't have any service added, add a service to start providing!</div>
+        </div>
+        <form method="post" role="form" th:action="@{/service/edit}" th:object="${provider}">
+          <div class="form-group mb-3">
+            <input th:field="*{id}" type="hidden"/>
+            <input th:field="*{service.id}" type="hidden"/>
+            <label class="form-label" for="service"> Service <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="service"
+                   name="service"
+                   th:field="*{service.name}"
+                   type="text"
+            />
+            <p th:errors="*{service.name}" class="text-danger"
+               th:if="${#fields.hasErrors('service.name')}">
+            </p>
+          </div>
+
+          <div class="form-group mb-3">
+            <label class="form-label">Price <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                   id="price"
+                   name="price"
+                   placeholder="Enter price"
+                   th:field="*{service.price}"
+                   type="number"
+            />
+            <p th:errors="*{service.price}" class="text-danger"
+               th:if="${#fields.hasErrors('service.price')}">
+            </p>
+          </div>
+
+          <div class="form-group mb-3">
+            <button class="btn btn-primary" type="submit" th:if="hasService">Update</button>
+            <button class="btn btn-primary" type="submit" th:unless="hasService">Add</button>
+          </div>
+        </form>
+    </div>
+  </div>
+  </div>
+</div>
+</body>
+</html>

@@ -77,6 +77,29 @@
                th:if="${#fields.hasErrors('num')}">
             </p>
           </div>
+          <br>
+          <div class="form-group mb-3">
+            <label class="form-label">Card Details <span style="color: crimson">*</span></label>
+            <input class="form-control"
+                 placeholder="Card Holder Name"
+                 type="text"
+            />
+            <br>
+            <input class="form-control"
+                   placeholder="Card Number"
+                   type="text"
+            />
+            <br>
+            <input class="form-control"
+                   placeholder="Expiry Date"
+                   type="text"
+            />
+            <br>
+            <input class="form-control"
+                   placeholder="Security Number"
+                   type="text"
+            />
+          </div>
 
           <div class="form-group mb-3">
             <button class="btn btn-primary" type="submit">Book</button>

@@ -54,7 +54,6 @@ public class AuthController {
     }
 
 
-
     @GetMapping("/login")
     public String loginForm() {
         return "login";

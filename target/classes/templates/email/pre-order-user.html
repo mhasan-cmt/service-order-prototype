@@ -6,29 +6,33 @@
 </head>
 <body>
 <p>
-    We are pleased to confirm your booking for <span class="text-bg-primary" th:text="${service_name}"></span> on <span
+    Thank you for your booking request for <span class="text-bg-primary" th:text="${service_name}"></span> on <span
         class="text-bg-primary" th:text="${created_at}"></span>.
-    <br>Your booking has been
-    confirmed.<br><br>
+    <br>We have sent it to the service provider, and
+    we will shortly let you know if your service has been booked successfully<br><br>
 
     Here are the details of your booking:
 </p>
 <table class="table-bordered table-dark">
     <tbody>
     <tr>
-        <td>Service type:</td>
+        <td>Service type: </td>
         <td th:text="${service_name}"></td>
     </tr>
     <tr>
-        <td>Booking date:</td>
+        <td>Booking date: </td>
         <td th:text="${created_at}"></td>
     </tr>
     <tr>
-        <td>Address:</td>
+        <td>Time Period: </td>
+        <td th:text="${from} + ' TO ' + ${to}"></td>
+    </tr>
+    <tr>
+        <td>Address: </td>
         <td th:text="${address}"></td>
     </tr>
     <tr>
-        <td>Payment Method:</td>
+        <td>Payment Method: </td>
         <td th:text="${payment_method}"></td>
     </tr>
 
@@ -36,10 +40,10 @@
 </table>
 
 <p>
-Thank you for choosing our services. We look forward to serving you.
-<br>
-Best regards,<br>
-Service To You [STU]
+    Thank you for choosing our services. We look forward to serving you.
+    <br>
+    Best regards,<br>
+    Service To You [STU]
 </p>
 </body>
 </html>

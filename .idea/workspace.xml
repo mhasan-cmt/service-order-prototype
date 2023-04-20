@@ -4,103 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e39e415-d979-47d6-be4e-21858dd04d4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/email/EmailType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/bookings.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/email/post-order-reject-user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/email/pre-order-provider.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/email/pre-order-user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/StuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/StuApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/email/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/email/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/email/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/email/EmailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/Booking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/PaymentMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/RoleName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/RoleName.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/ServiceProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/ServiceProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/Services.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/entity/Services.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/BookingRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/ServiceProviderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/ServiceProviderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/ServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/ServiceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/runner/DatabaseInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/runner/DatabaseInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/security/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/security/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/security/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IBookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IBookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IProviderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IProviderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IServiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/impl/IBookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/impl/IBookingServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/impl/IProviderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/impl/IProviderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/service/impl/ServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/service/impl/ServiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/web/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/web/controller/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/web/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/web/controller/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/web/controller/ServiceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/web/controller/ServiceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/web/dto/PayInPersonRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/web/dto/PayInPersonRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/stu/web/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/stu/web/dto/UserDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/serviceBooking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/serviceBooking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/serviceBookingPerson.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/serviceBookingPerson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/booking/successfulBooking.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/booking/successfulBooking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/email-template.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/email/post-order-confirm-user.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/service/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/service/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/service/newService.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/service/newService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/service/prevService.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/service/prevService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/StuApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/StuApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/email/EmailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/email/EmailService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/email/EmailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/email/EmailServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/Booking.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/Booking.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/PaymentMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/PaymentMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/RoleName.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/RoleName.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/ServiceProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/ServiceProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/Services.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/Services.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/repository/BookingRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/repository/BookingRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/repository/RoleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/repository/ServiceProviderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/repository/ServiceProviderRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/repository/ServiceRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/repository/ServiceRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/repository/UserRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/runner/DatabaseInitialization.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/runner/DatabaseInitialization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/security/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/security/CustomUserDetailsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/security/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/IBookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/IBookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/IProviderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/IProviderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/IServiceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/IServiceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/IUserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/IUserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/IBookingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/IBookingServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/IProviderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/IProviderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/IUserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/IUserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/ServiceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/service/impl/ServiceService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/web/controller/AuthController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/web/controller/AuthController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/web/controller/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/web/controller/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/web/controller/ServiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/web/controller/ServiceController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/web/dto/PayInPersonRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/web/dto/PayInPersonRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/stu/web/dto/UserDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/stu/web/dto/UserDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/booking/serviceBooking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/booking/serviceBooking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/booking/serviceBookingPerson.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/booking/serviceBookingPerson.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/booking/successfulBooking.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/booking/successfulBooking.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/email-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/service/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/service/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/service/newService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/service/newService.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/service/prevService.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/service/prevService.html" afterDir="false" />
+    <list default="true" id="0e39e415-d979-47d6-be4e-21858dd04d4d" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,26 +30,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/mahmud/IdeaProjects/stu",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "de8f12ed68eacdcde00211c288d19e25",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/mahmud/IdeaProjects/stu&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;de8f12ed68eacdcde00211c288d19e25&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="StuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <envs>
@@ -169,10 +74,23 @@
       <workItem from="1681846267493" duration="415000" />
       <workItem from="1681854973301" duration="24000" />
       <workItem from="1681855142121" duration="64000" />
+      <workItem from="1682011168645" duration="332000" />
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1682011372545</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682011372546</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
   </component>
 </project>
